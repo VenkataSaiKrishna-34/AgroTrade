@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Address"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Address"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold|italic"
+        android:textColor="#000"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"
+        />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0.0px"
+        android:elevation="8dp"
+        card_view:cardElevation="15dp"
+        android:layout_margin="4dp"
+        card_view:cardPreventCornerOverlap="false"
+        card_view:cardCornerRadius="10dp"
+        android:layout_below="@id/heading">
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/name_lab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name:"
+
+                android:paddingLeft="20dp"
+                android:paddingBottom="5dp"
+                android:paddingRight="20dp"
+                android:paddingTop="20dp"
+                android:textSize="24dp"
+                android:textColor="#000"
+                />
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+
+                android:layout_toRightOf="@id/name_lab"
+                android:paddingLeft="20dp"
+                android:paddingBottom="5dp"
+                android:paddingRight="20dp"
+                android:paddingTop="20dp"
+                android:textSize="24dp"
+                android:textColor="#000"
+                />
+
+            <TextView
+                android:id="@+id/street_lab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Street:"
+                android:layout_below="@id/name_lab"
+                android:paddingLeft="20dp"
+                android:paddingBottom="5dp"
+                android:paddingRight="20dp"
+                android:paddingTop="5dp"
+                android:textSize="24dp"
+                android:textColor="#000"
+                />
+
+            <TextView
+                android:id="@+id/street"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_below="@id/name_lab"
+                android:layout_toRightOf="@id/name_lab"
+                android:paddingLeft="20dp"
+                android:paddingBottom="5dp"
+                android:paddingRight="20dp"
+                android:paddingTop="5dp"
+                android:textSize="24dp"
+                android:textColor="#000"
+                />
+
+            <TextView
+                android:id="@+id/area_lab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Area:"
+                android:layout_below="@id/street_lab"
+                android:paddingLeft="20dp"
+                android:paddingBottom="5dp"
+                android:paddingRight="20dp"
+                android:paddingTop="5dp"
+                android:textSize="24dp"
+                android:textColor="#000"
+                />
+
+            <TextView
+                android:id="@+id/area"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_below="@id/street_lab"
+                android:layout_toRightOf="@id/name_lab"
+                android:paddingLeft="20dp"
+                android:paddingBottom="5dp"
+                android:paddingRight="20dp"
+                android:paddingTop="5dp"
+                android:textSize="24dp"
+                android:textColor="#000"
+                />
+
+            <TextView
+                android:id="@+id/city_lab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="City:"
+                android:layout_below="@id/area"
+                android:paddingLeft="20dp"
+                android:paddingBottom="5dp"
+                android:paddingRight="20dp"
+                android:paddingTop="5dp"
+                android:textSize="24dp"
+                android:textColor="#000"
+                />
+
+            <TextView
+                android:id="@+id/city"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_below="@id/area"
+                android:layout_toRightOf="@id/name_lab"
+                android:paddingLeft="20dp"
+                android:paddingBottom="5dp"
+                android:paddingRight="20dp"
+                android:paddingTop="5dp"
+                android:textSize="24dp"
+                android:textColor="#000"
+                />
+
+            <TextView
+                android:id="@+id/state_lab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="State:"
+                android:layout_below="@id/city"
+                android:paddingLeft="20dp"
+                android:paddingBottom="5dp"
+                android:paddingRight="20dp"
+                android:paddingTop="5dp"
+                android:textSize="24dp"
+                android:textColor="#000"
+                />
+
+            <TextView
+                android:id="@+id/state"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_below="@id/city"
+                android:layout_toRightOf="@id/name_lab"
+                android:paddingLeft="20dp"
+                android:paddingBottom="5dp"
+                android:paddingRight="20dp"
+                android:paddingTop="5dp"
+                android:textSize="24dp"
+                android:textColor="#000"
+                />
+
+            <TextView
+                android:id="@+id/pincode_lab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pincode:"
+                android:layout_below="@id/state"
+                android:paddingLeft="20dp"
+                android:paddingBottom="5dp"
+                android:paddingRight="20dp"
+                android:paddingTop="5dp"
+                android:textSize="24dp"
+                android:textColor="#000"
+                />
+
+            <TextView
+                android:id="@+id/pincode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_below="@id/state"
+                android:layout_toRightOf="@id/name_lab"
+                android:paddingLeft="20dp"
+                android:paddingBottom="5dp"
+                android:paddingRight="20dp"
+                android:paddingTop="5dp"
+                android:textSize="24dp"
+                android:textColor="#000"
+                />
+
+            <TextView
+                android:id="@+id/phone_lab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone:"
+                android:layout_below="@id/pincode"
+                android:paddingLeft="20dp"
+                android:paddingBottom="5dp"
+                android:paddingRight="20dp"
+                android:paddingTop="5dp"
+                android:textSize="24dp"
+                android:textColor="#000"
+                />
+
+            <TextView
+                android:id="@+id/phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_below="@id/pincode"
+                android:layout_toRightOf="@id/name_lab"
+                android:paddingLeft="20dp"
+                android:paddingBottom="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="5dp"
+                android:textSize="24dp"
+                android:textColor="#000"
+                />
+
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    >
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@color/colorPrimary"
+        android:textColor="#fff"
+        android:textSize="26dp"
+        />
+
+    <ImageView
+        android:id="@+id/profile1"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:background="@drawable/person"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="8dp"
+        />
+
+
+
+    <ImageButton
+        android:id="@+id/sortB"
+        android:layout_width="35dp"
+        android:layout_height="40dp"
+        android:src="@drawable/sort"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/toolbar"
+        android:background="@android:color/transparent"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="4dp"
+        />
+
+    <SearchView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sV"
+        android:queryHint="Search Commodities"
+        android:iconifiedByDefault="false"
+        android:isScrollContainer="true"
+        android:layout_below="@id/toolbar"
+        android:layout_marginRight="0dp"
+        android:layout_marginLeft="-17dp"
+        android:layout_toLeftOf="@id/sortB"
+        />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rv1"
+        android:layout_below="@+id/sV"
+        android:layout_marginTop="10dp"/>
+
+<!--    <Button-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textColor="#123"-->
+<!--        android:textSize="26dp"/>-->
+
+</RelativeLayout>

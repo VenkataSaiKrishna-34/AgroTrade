@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Phone_login"
+    android:paddingRight="20dp"
+    android:paddingLeft="20dp"
+    android:paddingTop="120dp"
+    android:background="@drawable/back3">
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        />
+
+    <com.rilixtech.widget.countrycodepicker.CountryCodePicker
+        android:id="@+id/ccp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/login"
+        android:layout_marginTop="40dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="10dp"
+        />
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone Number"
+        android:layout_marginTop="40dp"
+        android:textSize="26dp"
+        android:layout_below="@+id/login"
+        android:layout_toRightOf="@id/ccp"
+        android:inputType="phone"
+        />
+
+    <Button
+        android:id="@+id/continue_email"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="continue using email"
+        android:textSize="15dp"
+        android:textAlignment="textEnd"
+        android:layout_marginTop="7dp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:background="@android:color/transparent"
+        android:layout_below="@+id/phone"
+        />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:visibility="invisible"
+        android:layout_below="@id/continue_email"
+        />
+
+    <TextView
+        android:id="@+id/state"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="20dp"
+        android:text="Sending OTP.."
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:visibility="invisible"
+        android:layout_below="@id/continue_email"
+        android:layout_toRightOf="@id/progressBar"
+        />
+
+    <EditText
+        android:id="@+id/otp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="8dp"
+        android:ems="10"
+        android:hint="Enter OTP"
+        android:inputType="number"
+        android:textColor="#000"
+        android:textColorHighlight="#E8E9EE"
+        android:visibility="invisible"
+        android:layout_below="@id/continue_email"
+         />
+
+    <Button
+        android:id="@+id/send_otp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send OTP"
+        android:textSize="22dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/login_border"
+        android:layout_below="@+id/otp"
+        />
+
+
+<!--    <TextView-->
+<!--        android:id="@+id/resendOtpBtn"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Resend"-->
+<!--        android:textColor="#000"-->
+<!--        android:visibility="visible"-->
+<!--        android:layout_below="@id/send_otp" />-->
+
+
+
+
+    <!--    <View-->
+<!--        android:id="@+id/view1"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="1dp"-->
+<!--        android:background="#000"-->
+<!--        android:layout_marginTop="30dp"-->
+<!--        android:layout_below="@+id/progressBar"-->
+<!--        />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/new_account"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Create New Account"-->
+<!--        android:textSize="22dp"-->
+<!--        android:layout_marginTop="40dp"-->
+<!--        android:textColor="#FFFFFF"-->
+<!--        android:background="@drawable/border_radius"-->
+<!--        android:layout_below="@+id/view1"-->
+<!--        />-->
+
+</RelativeLayout>

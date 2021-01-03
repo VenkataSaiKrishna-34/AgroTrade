@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<!--    <item android:id="@+id/person"-->
+<!--        android:icon="@drawable/person"-->
+<!--        android:title="Person Profile"-->
+<!--        app:showAsAction = "ifRoom"/>-->
+
+    <item android:id="@+id/order"
+        android:title="Your Order"
+        app:showAsAction = "never"/>
+
+    <item android:id="@+id/address"
+        android:title="Your Address"
+        app:showAsAction = "never"/>
+
+    <item android:id="@+id/contactUs"
+        android:title="Contact Us"
+        app:showAsAction = "never"/>
+
+    <item android:id="@+id/WhatsAppUs"
+        android:title="WhatsApp Us "
+        app:showAsAction = "never"/>
+
+<!--    <item android:id="@+id/aboutUs"-->
+<!--        android:title="About Us"-->
+<!--        app:showAsAction = "never"/>-->
+
+
+</menu>

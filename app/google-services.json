@@ -1,0 +1,93 @@
+{
+  "project_info": {
+    "project_number": "326146260828",
+    "firebase_url": "https://map-project-97e19.firebaseio.com",
+    "project_id": "map-project-97e19",
+    "storage_bucket": "map-project-97e19.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:326146260828:android:85d921a49f8e1d4a3f4b99",
+        "android_client_info": {
+          "package_name": "com.example.agrotrade_1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "326146260828-73mdve556brf2n2v1gf6vcib3hed9nnh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.agrotrade_1",
+            "certificate_hash": "d3fb8098e2c8067b7011795768dcd60134594bb4"
+          }
+        },
+        {
+          "client_id": "326146260828-m1umeaslhhpp1dcqi1jfssgdj9v02j04.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCI667U9-3kqqb_jjFiq3RMSIrg0JXkfEk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "326146260828-m1umeaslhhpp1dcqi1jfssgdj9v02j04.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:326146260828:android:84f3a99fc08e400e3f4b99",
+        "android_client_info": {
+          "package_name": "com.example.mapproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "326146260828-kt5l1n959h2omia4a98mudnimhj7pehe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mapproject",
+            "certificate_hash": "d3fb8098e2c8067b7011795768dcd60134594bb4"
+          }
+        },
+        {
+          "client_id": "326146260828-vuqsvfrbtfne9tnjmclfhfrhrskim6jr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mapproject",
+            "certificate_hash": "2696f97cf2d59f195e1daa9c4f5e7a9cb97df463"
+          }
+        },
+        {
+          "client_id": "326146260828-m1umeaslhhpp1dcqi1jfssgdj9v02j04.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCI667U9-3kqqb_jjFiq3RMSIrg0JXkfEk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "326146260828-m1umeaslhhpp1dcqi1jfssgdj9v02j04.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
