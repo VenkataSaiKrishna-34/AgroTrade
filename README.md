@@ -13,8 +13,8 @@ An android application which allows buyers to buy the crops directly from farmer
   ![3](https://user-images.githubusercontent.com/68644247/115959516-39b05900-a52a-11eb-8fa8-501d48a34939.jpg)
 
 ## 3. Landing and Internal Pages
-  ![6](https://user-images.githubusercontent.com/68644247/115959707-28b41780-a52b-11eb-8980-481eba126fee.jpg)<br>
-  ![8](https://user-images.githubusercontent.com/68644247/115959712-2c479e80-a52b-11eb-9780-c9c2243fe735.jpg)
+  ![6](https://user-images.githubusercontent.com/68644247/115959707-28b41780-a52b-11eb-8980-481eba126fee.jpg)  
+![8](https://user-images.githubusercontent.com/68644247/115961692-2787e800-a535-11eb-8f94-3add14ba0d2b.jpg)
 
 ## 4. Profile, Orders and Address Pages
   ![11](https://user-images.githubusercontent.com/68644247/115959716-310c5280-a52b-11eb-9e5e-a0e16556385b.jpg)  
